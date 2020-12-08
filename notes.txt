@@ -1,0 +1,25 @@
+git add "filename" / git reset "filename"
+    >> add/remove file from staging area
+
+git commit / git commit -m "commit message here" / git commit -a
+    >> commit files
+    >> commit -m to add commit message directly without text editor
+    >> commit -a to skip staging area
+    >> commit -am can be combined
+
+git status
+    >> shows staging/commit status of files
+
+git lg
+    >> brief log of commit history
+
+git log
+    >> detailed log history
+
+git checkout "revision number"
+    >> view details of "revision number"
+    >> sets HEAD to that case
+
+git reset "revision number"
+    >> deletes the changes in case "revision number"
+    >> can also use HEAD instead of number
